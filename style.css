@@ -89,3 +89,48 @@
     .action-img img {
         border-radius: 48px;
     }
+
+    /* productive section start here  */
+
+    .productive-user-section {
+        max-width: 1140px;
+        margin: 00 auto;
+        border-radius: 24px;
+        background: rgba(78, 71, 255, 0.1);
+    }
+
+    .productive-user-container {
+        padding: 50px 80px;
+        text-align: center;
+    }
+
+    .productive-user-container h1 {
+        color: rgb(37, 36, 50);
+        font-size: 38px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .productive-user-content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .productive-user-content h1 {
+        color: rgb(78, 71, 255);
+        font-family: Inter;
+        font-size: 80px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 00px;
+    }
+
+    .productive-user-content p {
+        margin-top: 00;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+    }
