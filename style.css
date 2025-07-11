@@ -36,7 +36,7 @@
 
     .nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 50px 150px;
         align-items: center;
     }
@@ -229,7 +229,8 @@
         font-weight: 600;
         text-align: left;
     }
-
+    /* focus-section-starts */
+    
     /* get-in-touch section start here  */
     .get-in-touch-section {
         max-width: 1140px;
@@ -250,11 +251,13 @@
         text-align: left;
         text-transform: capitalize;
     }
-    .right-side{
+
+    .right-side {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
+
     .get-in-touch-container .right-side label {
         margin-right: 10px;
         color: rgb(0, 0, 0);
@@ -286,8 +289,54 @@
         background: rgb(255, 255, 255);
         resize: none;
     }
-    .get-in-touch-container .btn{
+
+    .get-in-touch-container .btn {
         width: 497px;
         height: 62px;
         padding: 00 101px;
+    }
+
+    /* footer section start here  */
+
+    .footer-section {
+        box-sizing: border-box;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        background: rgb(255, 255, 255);
+    }
+
+    .footer-container {
+        padding: 104px 455px;
+        text-align: center;
+    }
+
+    .footer-container h1 {
+        margin-bottom: 00px;
+        color: rgb(78, 71, 255);
+        font-family: Inter;
+        font-size: 100px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .footer-container p {
+        color: rgb(137, 135, 161);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .footer-link a {
+        text-decoration: none;
+        color: rgb(137, 135, 161);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+
     }
